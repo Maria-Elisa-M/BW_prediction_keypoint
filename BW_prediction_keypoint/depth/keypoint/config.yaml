@@ -1,0 +1,12 @@
+# Data
+path: /home/lobatomeneze@ad.wisc.edu/Yolo/keypoint
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+
+# Keypoints
+kpt_shape: [7, 2]  # [number of keypoints, number of dim]
+flip_idx: [1, 0, 3, 2, 4, 5, 6]
+
+# Classes
+names:
+  0: cow
